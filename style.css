@@ -1,0 +1,83 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(220, 15%, 55%);
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+    flex-wrap: center;
+}
+
+.cardBackground {
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.qrCode{
+
+    position: absolute;
+    z-index: 2;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
+
+
+
+.text1{
+    position: absolute;
+    z-index: 3;
+    padding-top: 150px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.text2{
+    position: absolute;
+    z-index: 3;
+    padding-top: 265px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.text3{
+    position: absolute;
+    z-index: 3;
+    padding-top: 360px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    display: inline-block;    
+}
+
+a{
+    font-size: 10px;
+    transition: font-size 0.5s;
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    font-size: 15px;
+    color: black;
+}
